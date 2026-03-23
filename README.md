@@ -16,7 +16,7 @@ The system tracks **Policy Drift** over time. By quantifying risk on a 1-10 scal
 
 
 *Figure: Visualizing the reduction from High Risk (8) to Low Risk (3) compliance.*
-![Risk Trend](risk_trend_2026.png)
+![Risk Trend](wealth_risk_trend_2026.png)
 
 ## 🛠️ The Stack (March 2026 Standard)
 * **LLM:** Gemini 2.5 Flash (Optimized for GRC Reasoning)
