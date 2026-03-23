@@ -1,9 +1,9 @@
 **Executive Retrospective: Project GovRAG-Nexus**
 **Period: Q1 2026**
 
-**Lead: Phartheeb Tanjore Kandasamy
+**Lead: Phartheeb Tanjore Kandasamy**
 
-Domain: AI Governance & QE Transformation**
+**Domain: AI Governance & QE Transformation**
 
 1. **The Challenge: "Soft Language" Risk**
 Our legacy Wealth Management policies contained "compliance gaps" where data retention periods (e.g., 7 years) were defined without specific Trigger Dates. Standard RAG systems flagged these as "Passed," creating a latent regulatory risk. Additionally, the deprecation of legacy AI models in March 2026 threatened the stability of our audit infrastructure.
