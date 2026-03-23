@@ -38,3 +38,17 @@ During development, the legacy `gemini-1.5-flash` API was decommissioned (404 Er
 2. **Architecture Upgrade:** Re-pointed the LCEL chains to **Gemini 2.5 Flash**.
 3. **Adaptive Logic:** Leveraged the new 'Thinking' capabilities of 2.5 to move from binary 
    compliance to a nuanced **1-10 Risk Score**.
+## 🧠 Technical Deep Dive: Why Gemini 2.5 Flash?
+
+The core of GovRAG-Nexus relies on **Adaptive Thinking** to differentiate between "Presence of Policy" and "Precision of Policy." 
+
+### **The Logic Gap Challenge**
+Legacy RAG systems often suffer from 'Semantic Surface Matching.' If a user asks about retention, the AI finds the 7-year clause and stops. 
+
+**GovRAG-Nexus** uses a multi-turn reasoning chain:
+1. **Extraction:** Is a retention period defined? (Yes/No)
+2. **Contextual Audit:** Is there a defined 'Trigger Event' for that period? (e.g., *Date of last transaction*)
+3. **Risk Scoring:** If the trigger is missing, the Auditor Agent automatically elevates the **Risk Score** to 6+ and provides remediation text.
+
+### **Infrastructure Resilience**
+By successfully migrating the pipeline during the **March 2026 Model Sunset**, the project demonstrates a zero-defect approach to AI lifecycle management, ensuring that governance tools remain operational even as underlying LLM endpoints evolve.
