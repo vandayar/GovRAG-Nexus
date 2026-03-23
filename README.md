@@ -14,8 +14,9 @@ A core feature of this project was navigating the **March 2026 Model Migration**
 ## 📊 Executive Dashboard: Risk Trend Analysis
 The system tracks **Policy Drift** over time. By quantifying risk on a 1-10 scale, the engine allows Directors to see the immediate impact of remediation efforts.
 
-![Risk Trend Chart](image_aa3201.png)
+
 *Figure: Visualizing the reduction from High Risk (8) to Low Risk (3) compliance.*
+![Wealth Policy Risk Trend](risk_trend_2026.png)
 
 ## 🛠️ The Stack (March 2026 Standard)
 * **LLM:** Gemini 2.5 Flash (Optimized for GRC Reasoning)
