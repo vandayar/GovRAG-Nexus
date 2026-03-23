@@ -29,3 +29,12 @@ The system tracks **Policy Drift** over time. By quantifying risk on a 1-10 scal
 # Real-time monitoring for 'Soft Language' regressions
 if audit_risk_score > 3:
     trigger_alert("🔴 High Risk Drift Detected: Review Trigger Date Clarity.")
+
+## 🛠️ Technical Challenge: The 2026 Model Migration
+During development, the legacy `gemini-1.5-flash` API was decommissioned (404 Error). 
+
+**The Transformation:**
+1. **Infrastructure Audit:** Identified the hard cutoff in the Google v1beta API.
+2. **Architecture Upgrade:** Re-pointed the LCEL chains to **Gemini 2.5 Flash**.
+3. **Adaptive Logic:** Leveraged the new 'Thinking' capabilities of 2.5 to move from binary 
+   compliance to a nuanced **1-10 Risk Score**.
